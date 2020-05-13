@@ -1,0 +1,55 @@
+/*Herencia*/
+/*p{
+	color: blue;
+
+}
+
+a{
+	color: inherit;
+}
+
+
+
+p{
+	color: yellow;
+}*/
+
+
+/*
+
+	Etiqueta -> 1
+	Clases y pseudoclases -> 10
+	Id -> 100
+	Estilos en linea -> 1000
+	!important -> Gana a todo
+
+*/
+
+a{
+	color: inherit;
+}
+
+p{
+	color: cyan;
+}
+
+.parrafo{
+	color: blue;
+}
+
+#parrafo{
+	color : gray;
+}
+
+p{
+	color: green !important;
+}
+
+
+.cuadro{
+	width: 100px;
+	height: 100px;
+	padding: 20px;
+	border: 5px solid black;
+	background: red;
+}
