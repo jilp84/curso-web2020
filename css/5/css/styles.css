@@ -1,0 +1,100 @@
+/*
+
+BORDER
+border-width
+	px|em|rem|%|...
+
+border-style
+	none|hidden|dotted|dashed|solid|double|grove|ridge|inset|outset|initial|inherit
+
+	*Estas medidas dependen del navegador
+	think (ancho)
+	medium (medio)
+	thin (fino)
+
+border-color
+	css nativo|rgb|rgba|hs1|hs1a|hexadecimal|transparent
+
+border-top-(width | style | color)
+border-right-(width | style | color)
+border-bottom-(width | style | color)
+border-left-(width | style | color)
+
+*/
+
+.box1, .box2{
+	width: 300px;
+	height: 200px;
+	margin: 2em;
+}
+
+.box1{
+	background: yellowgreen;
+	border: 5px solid red;
+
+	/*border: 100px solid red;*/
+	
+	/*border-top: none;*/
+	border-top-width: 100px;
+	border-top-color: transparent;
+}
+
+.box2{
+	background: lightgreen;
+	border-left-width: 5px;
+	border-left-style: dotted;
+	border-left-color: blue;
+
+}
+
+/*OUTLINE*/
+/*
+outline-width
+	px|em|rem|%|...
+
+outline-style
+	none|hidden|dotted|dashed|solid|double|grove|ridge|inset|outset|initial|inherit
+
+	*Estas medidas dependen del navegador
+	think (ancho)
+	medium (medio)
+	thin (fino)
+
+outline-color
+	css nativo|rgb|rgba|hs1|hs1a|hexadecimal|transparent
+
+outline-top-(width | style | color)
+outline-right-(width | style | color)
+outline-bottom-(width | style | color)
+outline-left-(width | style | color)
+
+*/
+
+.img-box{
+	width: 90%;
+	/*border: 2px solid black;*/
+	
+	margin-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.img{
+	border: 5px solid lightcoral;
+	outline: 5px solid lightcoral;
+	outline-offset: -45px;
+}
+
+.text{
+	position: absolute;
+	color: lightcoral;
+	font-size: 3em;
+	
+}
