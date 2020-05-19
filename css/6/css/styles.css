@@ -1,0 +1,62 @@
+/*
+
+	Position
+
+	Flujo HTML -> Es el orden en el que aparecen 
+	los elentos en el documento.
+
+
+	Espacio -> Es el espacio que ocupa
+	 un elemento en el documento
+
+*/
+
+.title{
+	text-align: center;
+	font-size: 3em;
+}
+
+p{
+	font-size: 2em;
+}
+
+
+.parrafo-1{
+	/*visibility: hidden;*/
+
+	display: none;
+
+
+
+}
+
+
+/*Position Relative*/
+.box1, .box2{
+	
+	width: 250px;
+	height: 250px;
+	margin: 1em auto;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+.box1{
+	background: lightgreen;
+	position: relative;
+
+	top: 100px;
+	left: 50px;
+
+	/*right: 50px;	
+	bottom: 200px;*/
+
+	z-index: 1;
+
+}
+
+.box2{
+	background: lightcoral;	
+	position: relative;
+	z-index: 2;
+}
