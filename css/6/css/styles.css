@@ -129,3 +129,69 @@ p{
 	left: 0;
 	margin: auto;
 }
+
+/*POSITION FIXED*/
+
+body{
+	padding-top: 5em;
+}
+
+.menu{
+	background: darkcyan;
+	padding: .5em;
+	text-align: center;
+	font-size: 2em;
+
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+}
+
+
+.title3{
+
+	margin: 0;
+
+}
+
+.text{
+	font-size: 14px;
+}
+
+/*Position Sticky*/
+
+body{
+	padding-top: 0;
+}
+
+.slide{
+	height: 300px;
+	background: gray;
+	font-size: 3em;
+	text-align: center;
+	line-height: 6em;
+}
+
+.sticky-menu{
+	background: darkcyan;
+	padding: .5em;
+	text-align: center;
+	font-size: 2em;
+
+	position: sticky;
+	top: 0;
+	width: 100%;
+
+}
+
+
+.sticky-title3{
+
+	margin: 0;
+
+}
+
+.sticky-text{
+	font-size: 14px;
+}
