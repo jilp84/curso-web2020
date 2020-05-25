@@ -1,0 +1,1 @@
+.title:first-letter{color:red;font-size:2em}.text:first-line{color:blue}.text::selection{color:lime;background:red}.dolar:before{content:'$'}.dolar:after{content:'.00'}.dolar:after,.dolar:before{content:'';display:block;width:20px;height:20px;background:red}
