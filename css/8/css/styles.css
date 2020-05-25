@@ -1,0 +1,21 @@
+
+.inline{
+	background: lime;
+
+	/*display: block;*/
+
+	/*display: inline-block;*/
+	/*height: 150px;*/
+
+	/*display: none;*/
+
+
+
+}
+
+.block{
+	background: yellow;
+	display: inline;
+	height: 30px;
+	width: 150px;
+}
