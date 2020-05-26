@@ -1,0 +1,22 @@
+/*
+
+Dynamic
+	:link (links) - Link no visitados
+	:visited (link) - Link visitado
+	:active (link) - el momento del click
+	:hover - Al poner el mouse sobre un elemento
+	:focus - cuando un elemento recibe o tiene el foco
+
+Target 
+	:target - Elemento es obtivo de un marcador
+	o ancla
+
+Language
+	:lang() Elemento que contiene el atributo lang 
+	que especifiquemos
+
+*/
+
+.link:link{
+	color: red;
+}
