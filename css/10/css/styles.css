@@ -20,3 +20,74 @@ Language
 .link:link{
 	color: red;
 }
+
+.link:visited{
+	color: green;
+}
+
+.link:active{
+	color: cyan;
+}
+
+.button{
+	text-decoration: none;
+	display: inline-block;
+	background: red;
+	padding: .5em;
+	border-radius: 5px;
+	color: white;
+}
+
+.button:active{
+	transform: scale(.9);
+
+}
+
+.button:hover{
+	background: black;
+	color: white;
+}
+
+.title:hover{
+	color: blue;
+}
+
+.input:focus{
+	background: green;
+}
+
+/*
+
+	HTML
+	CSS
+	JavaScript
+	PHP/JSP/ASP.net
+
+*/
+
+.menu{
+	background: lightblue;
+	display: block;
+	padding: 1em;
+	text-decoration: none;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+.span{
+	display: block;
+}
+
+.text:target{
+	padding-top: 50px;
+}
+
+.span:lang(en){
+	color: red;
+}
+
+.span:lang(es){
+	color: blue;
+}
