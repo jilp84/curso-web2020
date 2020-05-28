@@ -52,9 +52,9 @@ Language
 	color: blue;
 }
 
-.input:focus{
+/*.input:focus{
 	background: green;
-}
+}*/
 
 /*
 
@@ -90,4 +90,63 @@ Language
 
 .span:lang(es){
 	color: blue;
+}
+
+/*
+
+	UI States
+		:enabled
+		:disabled
+		:checked
+		:in-range
+		:out-of-range
+		:optional
+		:required
+		:valid
+		:invalid
+		:fullscreen
+
+*/
+
+.input,
+.label{
+	display: block;
+	margin: 1em;
+}
+
+.input:enabled{
+	background: red;
+}
+
+.input:disabled{
+	background: yellow;
+}
+
+.input:checked + label{
+	font-size: 2em;
+}
+
+.input:in-range{
+	background: green;
+}
+
+.input:out-of-range{
+	background: blue;
+}
+
+.input:optional{
+	background: purple;
+}
+
+.input:required{
+	background: lightcoral;
+
+}
+
+.input:valid{
+	background: green;
+}
+
+.input:invalid{
+	background: red;
 }
