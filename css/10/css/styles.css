@@ -150,3 +150,78 @@ Language
 .input:invalid{
 	background: red;
 }
+
+/*
+
+	Structural
+
+*/
+
+/*:root{
+
+}
+
+html{
+
+}*/
+
+/*.paragraph{
+	background: lightblue;
+	padding: .5em;
+}
+
+.paragraph:empty{
+	padding: 0;
+}*/
+
+/*.paragraph:first-child{
+	background: red;
+}*/
+
+/*.paragraph:last-child{
+	background: red;
+}*/
+
+
+/*
+HIJOS IMPARES
+.paragraph:nth-child(odd){
+	background: red;
+}*/
+
+/*
+HIJOS PARES
+.paragraph:nth-child(even){
+	background: red;
+}*/
+
+
+/*
+HIJO ESPECIFICO
+.paragraph:nth-child(5){
+	background: red;
+}*/
+
+/*
+
+3n
+
+3x0 = 0 + 1
+3x1 = 3
+3x2 = 6
+3x3 = 9
+
+*/
+
+/*.paragraph:nth-child(3n){
+	background: red;
+}*/
+
+/*.paragraph:nth-child(3n){
+	background: red;
+}*/
+
+.paragraph:not(h1){
+	background: red;
+}
+
