@@ -1,0 +1,33 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.title{
+	font-family: sans-serif;
+	font-family: cursive;
+	font-family: monospace;
+	font-family: fantasy;
+
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+	font-size: 50px;
+
+	font-weight: normal;
+
+	text-transform: capitalize;
+
+
+}
+
+.paragraph{
+	font-weight: bold;
+	font-weight: 900;
+	font-style: italic;
+	text-align: left;
+	text-indent: 50px
+}
+
+.link{
+	display: block;
+	text-align: center;
+}
