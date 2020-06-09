@@ -1,0 +1,30 @@
+
+.flex-container{
+	background-color: lightblue;
+	padding: .5em;
+
+	display: flex;
+	/*display: inline-flex;*/
+
+	/*flex-direction: row;
+	flex-direction: row-reverse;
+
+	flex-direction: column;
+	flex-direction: column-reverse;*/
+
+	flex-wrap: wrap;
+	flex-wrap: wrap-reverse;
+
+
+}
+
+
+.flex-item{
+	width: 30px;
+	height: 30px;
+	margin: .5em;
+	line-height: 30px;
+	color: aliceblue;
+	text-align: center;
+	background-color: purple;
+}
