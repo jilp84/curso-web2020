@@ -13,9 +13,9 @@ body{
 /*INICIO DEL HEADER*/
 .header{
 	padding: 30px;
-	font-size: 40px;
-	text-align: center;
-	background: white;
+  	font-size: 40px;
+  	text-align: center;
+  	background: white;
 }
 
 .leftcolumn{
@@ -26,8 +26,8 @@ body{
 .rightcolumn{
 	
 	float: left;
-	width: 25%;
-	padding: 20px;
+  	width: 25%;
+  	padding-left: 20px; /*antes solo tenia padding*/
 }
 
 .d_img{
@@ -87,6 +87,6 @@ body{
 @media screen and (max-width: 800px) {
 	.leftcolumn, .rightcolumn{
 		width: 100%;
-		padding-top: 0;
+		padding: 0; /*Antes tenia padding-top*/
 	}
 }
