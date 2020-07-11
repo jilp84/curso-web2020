@@ -49,7 +49,7 @@
 					<?php if(isset($_SESSION['usuario'])): ?>
 
 						<div class="menu">
-							<a href="#">Nuevo Post</a>
+							<a href="crear_post.php">Nuevo Post</a>
 							<a href="cerrar.php">Cerrar Sesión</a>
 						</div>					
 					

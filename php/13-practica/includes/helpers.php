@@ -16,3 +16,17 @@ function ObtenerPosts($conexion){
 
 }
 
+function ObtenerCategorias($conexion){
+
+	$sql = "SELECT * FROM categoria";
+
+	$categorias = mysqli_query($conexion, $sql);
+
+	$resultado = array();
+	if ($categorias && mysqli_num_rows($categorias) >= 1) {
+		$resultado = $categorias;
+	}
+
+	return $resultado;
+
+}
